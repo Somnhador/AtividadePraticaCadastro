@@ -1,0 +1,116 @@
+body {
+    margin: 0px auto;
+    background: url("Imagens/aven.jpeg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+form {
+    width: 30rem;
+    height: 21rem;
+    border-radius: 10rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 7.8%;
+    margin-bottom: 10%;
+}
+
+section {
+    width: 30%;
+    height: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 12.0%;
+    border: 2px solid;
+    background-color: rgba(23, 16, 28, 0.7);
+    border-color: rgb(255, 255, 255);
+    border-radius: 10rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+    color: rgb(255, 255, 255);
+    font-family: monospace;
+    font-size: 22px;
+    font-style: italic;
+    font-weight: bolder;
+    backdrop-filter: blur(5px);
+}
+
+div {
+    text-align: center;
+    margin-bottom: 0.9rem;
+}
+
+#botoes {
+    display: flex;
+}
+
+#entrar1 {
+    margin-right: 15%;
+}
+
+.botao {
+    width: 9rem;
+    height: 3rem;
+    margin-top: 6%;
+    border-radius: 2rem;
+    border: 2px solid;
+    background-color: rgb(15, 15, 15);
+    color: rgb(255, 255, 255);
+    font-family: monospace;
+    font-size: 22px;
+    font-style: italic;
+    font-weight: bolder;
+
+}
+
+.inputs {
+    border: 2px rgb(255, 255, 255) solid;
+    border-radius: 2rem;
+    background-color: rgb(15, 15, 15);
+    color: rgb(255, 255, 255);
+}
+
+input:focus {
+    transform: scale(1.1);
+}
+
+input:focus:invalid {
+    border: 4px #ff0000 solid;
+}
+
+input:valid {
+    border-color: #ffffff;
+}
+
+#entrar1:hover {
+    transform: rotateX(27deg);
+    color: rgb(0, 255, 21);
+    background-image: url(Imagens/checar.png);
+    background-repeat: no-repeat;
+    background-position: left 85px center;
+    padding-right: 20px;
+}
+
+#cadastrar1:hover {
+    transform: rotateX(27deg);
+    color: rgb(0, 76, 255);
+}
+
+input[type="checkbox"] {
+    accent-color: rgb(15, 15, 15);
+}
+
+#login {
+    background-image: url(Imagens/profile.png);
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    padding-right: 1rem;
+}
+
+#senha {
+    background-image: url(Imagens/padlock.png);
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    padding-right: 1rem;
+}

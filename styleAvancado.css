@@ -1,0 +1,67 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: url("Imagens/aven.jpeg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+section {
+    width: 100%;
+    max-width: 600px;
+    height: 500px;
+    padding: 20px;
+    border: 2px white solid;
+    background-color: rgba(23, 16, 28, 0.7);
+    border-radius: 10rem;
+    color: white;
+    font-family: monospace;
+    font-size: 22px;
+    font-style: italic;
+    font-weight: bolder;
+    backdrop-filter: blur(5px);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 400px;
+    margin: auto;
+    margin-top: 4rem;
+}
+
+label {
+    font-weight: bold;
+}
+
+input,
+select,
+button {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px #ccc solid;
+}
+
+@media only screen and(min-width: 600px) {
+
+    form {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    label,
+    input,
+    select,
+    button {
+        flex: 1 1 calc(50% - 20px);
+    }
+
+    button {
+        flex: 1 1 100%;
+    }
+}
